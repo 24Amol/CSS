@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        main{
+            height: 700px;
+            width: 700px;
+            border: 1px solid;
+            border-radius: 50%;
+            margin: 0 auto;
+            background-color: yellow;
+        }
+        .box{
+            height: 300px;
+            width: 300px;
+            border: 1px solid ;
+            transition: 2s all linear;
+            margin: 0 auto;
+            display: inline-block;
+
+        }
+        #Box1{
+            border-radius: 50%;
+            border-top-width: 30px;
+
+        }
+        #Box2{
+            border-radius: 50%;
+            border-top-width: 30px;
+            margin-left: 10px;
+        }
+        .eye{
+            height: 150px;
+            width: 100px;
+            border: 1px solid;
+            margin:  50px auto;
+            border-radius: 50%;
+            background-color: black;
+            transition: 1s all linear;
+        }
+        .box:hover{
+            transform: translateY(15px);
+        }
+        .eye:hover{
+            transform: scale(0.1);
+        }
+        #mouth{
+            height: 150px;
+            width: 550px;
+            border: 1px solid;
+            display:inline-block;
+            margin-left: 2.55rem;
+            border-radius: 70%;
+            background-color: black;
+            margin: 60px;
+        }
+
+    </style>
+</head>
+<body>
+   <main>
+    <div class="box" id="Box1">
+        <div class="eye"></div>
+    </div>
+    <div class="box" id="Box2">
+        <div class="eye"></div>
+    </div>
+    <div class="mouth">
+        <div id="mouth"></div>
+    </div>
+   </main>
+</body>
+</html>

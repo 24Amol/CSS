@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            height: 650px;
+            width: 700px;
+            border: 1px solid;
+            display: flex;
+        }
+        #Part1{
+            height: 650px;
+            width: 300px;
+            border: 1px solid;
+            background-color: rgb(26, 112, 241);
+        }
+        #Part2{
+            height: 650px;
+            width: 400px;
+            border: 1px solid;
+        }
+        input{
+            border: hidden ;
+            width: 300px;
+            border-bottom: 2px solid blue;
+            outline: none;
+            margin-top: 1rem;
+            margin-left: 2rem;
+        }
+        #btn{
+            height: 35px;
+            background-color: rgb(236, 80, 80);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="Part1"></div>
+        <div id="Part2">
+            <input type="text" value="Name">
+            <input type="text" value="Email/PhoneNo">
+            <input type="submit" value="Submit" id="btn">
+        </div>
+    </main>
+</body>
+</html>

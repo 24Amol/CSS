@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        
+        #Flex-Model{
+            height: 500px;
+            width: 500px;
+            border: 1px solid;
+            margin: 0 auto;
+        }
+        span{
+            display: block;
+            text-align: center;
+            font-size: 20px;
+        }
+        #Spans :nth-child(1)
+        {
+            margin-left: -500px;
+        }
+        #Spans :nth-child(2)
+        {
+            margin-left: 20px;
+        }
+        #Spans :nth-child(3)
+        {
+            margin-left: 390px;
+        }
+        .childs{
+            height: 300px;
+            width: 500px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .child{
+            height: 200px;
+            width: 100px;
+            border: 1px solid;
+            margin: 20px auto;
+            line-height: 140px;
+        }
+        #Title{
+            width: 100%;
+            margin-left: 20px;
+        }
+        #cross{
+            height: 50px;
+            width: 180px;
+            border: 1px solid;
+            display: inline-block;
+            transform: rotate(-90deg);
+        }
+        #cross h3{
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Main Axis</h1>
+    <div id="Spans">
+        <span>Main Start</span>
+        <span>Center</span>
+        <span>Main Ends</span>
+    </div>
+    <div id="cross">
+        <h3>CROSS AXIS</h3>
+    </div>
+    <div id="Flex-Model">
+        <div class="childs">
+            <div class="child" id="child1">
+                <h2>CHILD 1</h2>
+            </div>
+            <div class="child" id="child2">
+                <h2>CHILD 2</h2>
+            </div>
+            <div class="child" id="child3"> 
+                <h2>CHILD 3</h2>   
+            </div>
+        </div>
+    <div >
+        <h1 id="Title">FLEX MODEL</h1>
+
+    </div>
+    </div>
+</body>
+</html>

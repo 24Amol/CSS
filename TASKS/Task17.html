@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #Parent {
+        height: 608px;
+        width: 604px;
+        border: 1px solid;
+      }
+      .child {
+        height: 300px;
+        width: 301px;
+        border: 1px solid;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      #Child1 {
+        border-right: none;
+      }
+      #Child2 {
+        margin-left: -4px;
+        border-left: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Parent">
+      <div class="child" id="Child1"></div>
+      <div class="child" id="Child2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+        saepe. Maxime.
+      </div>
+    </div>
+  </body>
+</html>

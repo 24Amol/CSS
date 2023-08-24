@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        body{
+            height: 1000px;
+            width: 1000px;
+            border: 1px solid;
+            background-color: cyan;
+        }
+        #Parent{
+            height: 500px;
+            width: 500px;
+            border: 1px solid;
+            background-color: blue;
+            margin: 250px;
+
+        }
+        #Child{
+            height: 300px;
+            width: 300px;
+            border: 1px solid;
+            background-color: red;
+            margin: 100px;
+        }
+    </Style>
+</head>
+<body>
+    <!--* If you want to align the Child to extact center then you have Calculate the Parent Size and Divivde by 2  -->
+    <!--* Then Remaining value Assign as Margin to the Child  -->
+    <!--? margin 10px : It will Assign or apply All the Direction Margin to the Box  -->
+
+    <div id="Parent">
+        <div id="Child">
+            <h1>Box-Model</h1>
+        </div>
+    </div>
+</body>
+</html>

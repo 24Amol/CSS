@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #Container h1{
+            text-align: center;
+        }
+        .box{
+            height: 550px;
+            width: 600px;
+            border: 1px solid;
+            margin: 0 auto;
+            background-color: red;
+
+        }
+        
+        .child{
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+            background-color: cyan;
+        }
+        #Box1{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction:row;
+            text-align: center;
+            font-weight: bold;
+            line-height: 100px;
+        }
+        #Box2{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            text-align: center;
+            font-weight: bold;
+            line-height: 100px;
+        }
+        #Box3{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            text-align: center;
+            font-weight: bold;
+            line-height: 100px;
+        }
+        #Box4{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            text-align: center;
+            font-weight: bold;
+            line-height: 100px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="Container">
+        <h1>display: flex;<br>
+            flex-wrap: wrap; <br>flex-direction:row;</h1>
+        <div class="box" id="Box1">
+             <div class="child" id="Child1">Child1</div>
+             <div class="child" id="Child2">Child2</div>
+             <div class="child" id="Child3">Child3</div>
+             <div class="child" id="Child4">Child4</div>
+             <div class="child" id="Child5">Child5</div>
+             <div class="child" id="Child6">Child6</div>
+             <div class="child" id="Child7">Child7</div>
+             <div class="child" id="Child8">Child8</div>
+             <div class="child" id="Child9">Child9</div>
+            <div class="child" id="Child10">Child10</div>
+            <div class="child" id="Child11">Child11</div>
+            <div class="child" id="Child12">Child12</div>
+            <div class="child" id="Child13">Child13</div>
+            <div class="child" id="Child14">Child14</div>
+            <div class="child" id="Child15">Child15</div>
+            <div class="child" id="Child16">Child16</div>
+            <div class="child" id="Child17">Child17</div>
+            <div class="child" id="Child18">Child18</div>
+            <div class="child" id="Child19">Child19</div>
+            <div class="child" id="Child20">Child20</div>
+            <div class="child" id="Child21">Child21</div>
+            <div class="child" id="Child22">Child22</div>
+            <div class="child" id="Child23">Child23</div>
+            <div class="child" id="Child24">Child24</div>
+            <div class="child" id="Child25">Child25</div>
+        </div>
+        <h1>display: flex;<br>
+            flex-wrap: wrap;<br>
+            flex-direction: row-reverse;</h1>
+        <div class="box" id="Box2">
+            <div class="child" id="Child1">Child1</div>
+            <div class="child" id="Child2">Child2</div>
+            <div class="child" id="Child3">Child3</div>
+            <div class="child" id="Child4">Child4</div>
+            <div class="child" id="Child5">Child5</div>
+            <div class="child" id="Child6">Child6</div>
+            <div class="child" id="Child7">Child7</div>
+            <div class="child" id="Child8">Child8</div>
+            <div class="child" id="Child9">Child9</div>
+           <div class="child" id="Child10">Child10</div>
+           <div class="child" id="Child11">Child11</div>
+           <div class="child" id="Child12">Child12</div>
+           <div class="child" id="Child13">Child13</div>
+           <div class="child" id="Child14">Child14</div>
+           <div class="child" id="Child15">Child15</div>
+           <div class="child" id="Child16">Child16</div>
+           <div class="child" id="Child17">Child17</div>
+           <div class="child" id="Child18">Child18</div>
+           <div class="child" id="Child19">Child19</div>
+           <div class="child" id="Child20">Child20</div>
+           <div class="child" id="Child21">Child21</div>
+           <div class="child" id="Child22">Child22</div>
+           <div class="child" id="Child23">Child23</div>
+           <div class="child" id="Child24">Child24</div>
+           <div class="child" id="Child25">Child25</div>
+        </div>
+        <h1>display: flex;<br>
+            flex-wrap: wrap;<br>
+            flex-direction: column;</h1>
+        <div class="box" id="Box3">
+            <div class="child" id="Child1">Child1</div>
+            <div class="child" id="Child2">Child2</div>
+            <div class="child" id="Child3">Child3</div>
+            <div class="child" id="Child4">Child4</div>
+            <div class="child" id="Child5">Child5</div>
+            <div class="child" id="Child6">Child6</div>
+            <div class="child" id="Child7">Child7</div>
+            <div class="child" id="Child8">Child8</div>
+            <div class="child" id="Child9">Child9</div>
+           <div class="child" id="Child10">Child10</div>
+           <div class="child" id="Child11">Child11</div>
+           <div class="child" id="Child12">Child12</div>
+           <div class="child" id="Child13">Child13</div>
+           <div class="child" id="Child14">Child14</div>
+           <div class="child" id="Child15">Child15</div>
+           <div class="child" id="Child16">Child16</div>
+           <div class="child" id="Child17">Child17</div>
+           <div class="child" id="Child18">Child18</div>
+           <div class="child" id="Child19">Child19</div>
+           <div class="child" id="Child20">Child20</div>
+           <div class="child" id="Child21">Child21</div>
+           <div class="child" id="Child22">Child22</div>
+           <div class="child" id="Child23">Child23</div>
+           <div class="child" id="Child24">Child24</div>
+           <div class="child" id="Child25">Child25</div>
+        </div>
+        <h1> display: flex;<br>
+            flex-wrap: wrap;<br>
+            flex-direction: column-reverse;</h1>
+        <div class="box" id="Box4">
+            <div class="child" id="Child1">Child1</div>
+            <div class="child" id="Child2">Child2</div>
+            <div class="child" id="Child3">Child3</div>
+            <div class="child" id="Child4">Child4</div>
+            <div class="child" id="Child5">Child5</div>
+            <div class="child" id="Child6">Child6</div>
+            <div class="child" id="Child7">Child7</div>
+            <div class="child" id="Child8">Child8</div>
+            <div class="child" id="Child9">Child9</div>
+           <div class="child" id="Child10">Child10</div>
+           <div class="child" id="Child11">Child11</div>
+           <div class="child" id="Child12">Child12</div>
+           <div class="child" id="Child13">Child13</div>
+           <div class="child" id="Child14">Child14</div>
+           <div class="child" id="Child15">Child15</div>
+           <div class="child" id="Child16">Child16</div>
+           <div class="child" id="Child17">Child17</div>
+           <div class="child" id="Child18">Child18</div>
+           <div class="child" id="Child19">Child19</div>
+           <div class="child" id="Child20">Child20</div>
+           <div class="child" id="Child21">Child21</div>
+           <div class="child" id="Child22">Child22</div>
+           <div class="child" id="Child23">Child23</div>
+           <div class="child" id="Child24">Child24</div>
+           <div class="child" id="Child25">Child25</div>
+        </div>
+    </div>
+</body>
+</html>

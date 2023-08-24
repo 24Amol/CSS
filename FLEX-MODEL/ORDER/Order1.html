@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Container{
+            height: 650px;
+            width: 650px;
+            border: 1px solid;
+            background-color: red;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px auto;
+        }
+        .box{
+            height: 200px;
+            width: 100px;
+            border: 1px solid;
+            font-size: 1.35rem;
+            line-height: 180px;
+            text-align: center;
+            font-weight: 700;
+            background-color: cyan;
+        }
+        #Container1 #Box1{
+            order: 0;
+        }
+        #Container1 #Box2{
+            order: 0;
+        }
+        #Container1 #Box3{
+            order: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container" id="Container1">
+        <div class="box" id="Box1">CHILD 1</div>
+        <div class="box" id="Box2">CHILD 2</div>
+        <div class="box" id="Box3">CHILD 3</div>
+        <div class="box" id="Box4">CHILD 4</div>
+     </div>
+    <div class="Container" id="Container2">
+        <div class="box" id="Box1">CHILD 1</div>
+        <div class="box" id="Box2">CHILD 2</div>
+        <div class="box" id="Box3">CHILD 3</div>
+        <div class="box" id="Box4">CHILD 4</div>
+    </div> 
+</body>
+</html>
